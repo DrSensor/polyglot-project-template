@@ -6,8 +6,8 @@ commit-msg:
 pre-commit:
   parallel: true
   commands:
-    #conform:
-    #  run: conform enforce
+    conform:
+      run: conform enforce
     check: # linting, check compile error, and other stuffs
       root: /                   # where the command is executed
       glob: "*.extension_file"  # run when it mach this glob filter
